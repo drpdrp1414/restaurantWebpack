@@ -1,0 +1,95 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+#content{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.76234243697479) 12%, rgba(131,131,131,0.0984768907563025) 44%, rgba(255,255,255,0.053658963585434205) 97%),
+        url(/img/food.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 1920px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.title{
+    transform: translateY(-100px);
+    display: flex;
+    align-items: center;
+    height: 20%;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    color: rgb(241, 255, 250);
+    font-size: 48px;
+}
+
+button{
+    color: rgb(86, 130, 89);
+    border: 0;
+    cursor: pointer;
+    font-size: 22px;
+    margin-right: 15px;
+    height: 60px;
+    width: 150px;
+    background-color: rgba(0,0,0,0.0);
+    transition: color .3s;
+    border-radius: 3px;
+}
+
+button:hover{
+    color: rgb(129, 200, 155);
+}
+
+#container{
+    display: flex;
+    max-width: 80%;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    flex-wrap: wrap;
+}
+
+#container > *{
+    flex: 1 1 80px;
+    border-radius: 10px;
+    margin: 6px;
+    padding: 15px;
+    background-color: rgb(204, 252, 203);
+    border: 1px solid rgb(160, 249, 159);
+}
+
+#container:nth-child(odd){
+    background-color: rgb(129, 161, 128);
+}
