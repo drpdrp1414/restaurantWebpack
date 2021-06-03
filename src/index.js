@@ -1,9 +1,14 @@
-import { loadContact } from './contact'
+//imports for modules for pages
+import {loadContact} from './contact'
 import {loadHome} from './home'
 import {loadMenu} from './menu'
-import {loadContact} from './contact'
+
+//load page to home section
+window.onload = loadHome()
 
 
+
+//wire up buttons to change html
 let home = document.getElementById('home-btn')
 home.addEventListener('click', loadHome)
 

@@ -12,8 +12,6 @@ function loadMenu(){
     content.appendChild(div1)
     content.appendChild(div2)
     content.appendChild(div3)
-    
 }
-
 
 export{ loadMenu }
